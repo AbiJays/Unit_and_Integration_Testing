@@ -20,7 +20,7 @@ describe('Calculator', () => {
 
   it('should sums numbers', () => {
     const button1 = container.find('#number1');
-    const buttonAdd = container.find('#operator_add');
+    const buttonAdd = container.find('#operator-add');
     const button4 = container.find('#number4');
     const buttonEquals = container.find('#operator-equals');
     button1.simulate('click');
